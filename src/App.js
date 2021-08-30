@@ -1,9 +1,10 @@
 import "./App.css";
+import Nav from './components/Nav/Nav'
 
 function App() {
   return (
     <div className="App">
-      <h1>Nav Bar</h1>
+      <Nav/>
       <h1>Home</h1>
       <h1>About</h1>
       <h1>MineSweep</h1>
