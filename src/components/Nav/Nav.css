@@ -1,0 +1,42 @@
+nav {
+  background-color: #11224d;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+nav .site-title {
+  color: #f98125;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: auto;
+  padding: 10px;
+  border: 6px solid #f98125;
+  border-radius: 35px;
+  position: absolute;
+  top: 6px;
+  left: 5%;
+  display: inline-block;
+}
+
+.navigation-buttons{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
+.navigation-buttons button{
+  margin-left: 45px;
+  color:#f98125;
+  border: none;
+  background-color: #11224d;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.navigation-buttons button:hover{
+  color: #fb9b50;
+  text-decoration: underline overline #fb9b50;
+}
