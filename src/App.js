@@ -1,12 +1,13 @@
 import "./App.css";
-import Nav from './components/Nav/Nav'
+import Nav from "./components/Nav/Nav";
+import About from "./components/About/About";
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
       <h1>Home</h1>
-      <h1>About</h1>
+      <About />
       <h1>MineSweep</h1>
       <h1>Projects</h1>
       <h1>Experience</h1>
