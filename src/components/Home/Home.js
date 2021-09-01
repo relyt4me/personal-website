@@ -8,8 +8,15 @@ const Home = () => {
   const { name, gitHubURL, linkedInURL } = resumeData;
 
   const printIcons = () => {
-    return floatIcons.map(({ image, name }) => {
-      return <img src={image} alt={`small ${name} icon`} key={`${name}`} />;
+    return floatIcons.map(({ image, name }, index) => {
+      return (
+        <img
+          src={image}
+          alt={`small ${name} icon`}
+          key={`${name}`}
+          className={`float-icon fl-icon${index}`}
+        />
+      );
     });
   };
 
