@@ -7,8 +7,73 @@
 
 .home h1 {
   position: absolute;
-  top: 150px;
+  top: 140px;
   margin-left: auto;
   left: 0;
   right: 0;
+}
+
+.home .links {
+  position: absolute;
+  top: 173px;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+}
+
+.home .links img {
+  height: 28px;
+  padding: 10px;
+}
+
+.home .links img:hover {
+  height: 33px;
+  padding-top: 5px;
+}
+
+.float-icon {
+  height: 50px;
+  position: absolute;
+  animation-name: float;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.fl-icon0 {
+  top: 10%;
+  animation-duration: 25s;
+}
+.fl-icon1 {
+  top: 78%;
+  animation-duration: 50s;
+}
+.fl-icon2 {
+  top: 70%;
+  animation-duration: 31s;
+}
+.fl-icon3 {
+  top: 15%;
+  animation-duration: 36s;
+}
+.fl-icon4 {
+  top: 30%;
+  animation-duration: 40s;
+}
+.fl-icon5 {
+  top: 84%;
+  animation-duration: 42s;
+}
+.fl-icon6 {
+  top: 2%;
+  animation-duration: 45s;
+}
+
+@keyframes float {
+  from {
+    transform: translateX(-55vw);
+  }
+  to {
+    transform: translateX(50vw);
+  }
 }
