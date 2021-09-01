@@ -8,8 +8,10 @@ const About = () => {
   return (
     <div>
       <section className="about">
-        <img src={profilePic} alt={`${name} headshot`} />
-        <article className="bio">{bioDescription}</article>
+        <div className="about-container">
+          <img src={profilePic} alt={`${name} headshot`} />
+          <article className="bio">{bioDescription}</article>
+        </div>
       </section>
     </div>
   );

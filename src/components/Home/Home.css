@@ -11,14 +11,17 @@
   margin-left: auto;
   left: 0;
   right: 0;
+  font-size: 2.1em;
+  z-index: 1;
 }
 
 .home .links {
   position: absolute;
-  top: 173px;
+  top: 179px;
   margin-left: auto;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .home .links img {
@@ -32,7 +35,7 @@
 }
 
 .float-icon {
-  height: 50px;
+  height: 60px;
   position: absolute;
   animation-name: float;
   animation-fill-mode: both;
@@ -45,7 +48,7 @@
   animation-duration: 25s;
 }
 .fl-icon1 {
-  top: 78%;
+  top: 70%;
   animation-duration: 50s;
 }
 .fl-icon2 {
@@ -61,7 +64,7 @@
   animation-duration: 40s;
 }
 .fl-icon5 {
-  top: 84%;
+  top: 80%;
   animation-duration: 42s;
 }
 .fl-icon6 {
