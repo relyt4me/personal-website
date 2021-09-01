@@ -10,7 +10,7 @@ nav {
 
 nav .site-title {
   color: #f98125;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   height: auto;
   padding: 10px;
   border: 6px solid #f98125;
@@ -21,22 +21,23 @@ nav .site-title {
   display: inline-block;
 }
 
-.navigation-buttons{
+.navigation-buttons {
   position: absolute;
   top: 30%;
   right: 5%;
 }
 
-.navigation-buttons button{
+.navigation-buttons button {
   margin-left: 45px;
-  color:#f98125;
+  color: #f98125;
   border: none;
   background-color: #11224d;
+  font-family: Quicksand;
   font-size: larger;
   font-weight: bold;
 }
 
-.navigation-buttons button:hover{
+.navigation-buttons button:hover {
   color: #fb9b50;
   text-decoration: underline overline #fb9b50;
 }
