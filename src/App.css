@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Quicksand;
+  src: url("./assets/Quicksand-VariableFont_wght.ttf");
+}
+
 .App {
   text-align: center;
+  font-family: Quicksand;
 }
 
 .App h1 {
@@ -7,6 +13,6 @@
 }
 
 * {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 }

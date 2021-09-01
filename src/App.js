@@ -6,7 +6,7 @@ import About from "./components/About/About";
 function App() {
   return (
     <div className="App">
-      {/* <Nav /> */}
+      <Nav />
       <Home />
       <About />
       <h1>MineSweep</h1>
