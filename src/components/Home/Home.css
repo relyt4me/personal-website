@@ -71,7 +71,7 @@
 
 @keyframes float {
   from {
-    transform: translateX(-55vw);
+    transform: translateX(-70vw);
   }
   to {
     transform: translateX(50vw);
