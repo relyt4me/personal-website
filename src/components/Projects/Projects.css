@@ -1,0 +1,116 @@
+.projects {
+  position: relative;
+  width: 1300px;
+  height: 600px;
+  margin: auto;
+  color: #193a6f;
+}
+
+.projects h1 {
+  height: 100px;
+}
+
+.stack {
+  position: absolute;
+  width: 300px;
+  left: 10px;
+  padding: 100px 0px 0px 0px;
+  box-sizing: border-box;
+  font-size: larger;
+  line-height: 150%;
+}
+
+.stack h2 {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.stack li {
+  text-align: left;
+}
+
+.project {
+  position: absolute;
+  width: 600px;
+  left: 350px;
+}
+
+.project button {
+  position: absolute;
+  top: 43%;
+  height: 20%;
+  width: 50px;
+  font-family: Quicksand;
+  background-color: #5b84c4;
+  color: #fb9b50;
+  border: 9px solid #fb9b50;
+  border-radius: 10px;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.back-button {
+  left: 5px;
+}
+
+.next-button {
+  right: 5px;
+}
+
+.project img {
+  width: 580px;
+  height: 350px;
+  border: 6px solid #fb9b50;
+  border-radius: 13px;
+}
+
+.project article {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  height: 280px;
+  margin: 50px;
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: white;
+  border-radius: 25px;
+  opacity: 0%;
+  font-size: larger;
+}
+
+.project article h1 {
+  height: min-content;
+  padding-bottom: 10px;
+}
+
+.project article p {
+  text-align: left;
+}
+
+.project article:hover {
+  opacity: 90%;
+}
+
+.project-links {
+  position: absolute;
+  width: 350px;
+  right: 0;
+}
+
+.project-links a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2em;
+  width: 175px;
+  padding: 10px 30px;
+  border: 3px solid #5b84c4;
+  border-radius: 45px;
+  margin-top: 25%;
+  background-color: #5b84c4;
+  color: #fb9b50;
+  font-weight: bold;
+}
+
+.project-links a:hover {
+  border: 3px solid #fb9b50;
+}

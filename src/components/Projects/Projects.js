@@ -24,14 +24,27 @@ const Projects = () => {
   };
 
   return (
-    <div>
+    <div className="projects">
+      <h1>My Projects</h1>
       <aside className="stack">
         <h2>STACK</h2>
         {printStack()}
       </aside>
-      <div>
-        <button onClick={() => changeProject(-1)}>Back</button>
-        <button onClick={() => changeProject(1)}>Next</button>
+      <div className="project">
+        <button
+          alt="previous project"
+          className="back-button"
+          onClick={() => changeProject(-1)}
+        >
+          {"<"}
+        </button>
+        <button
+          alt="next project"
+          className="next-button"
+          onClick={() => changeProject(1)}
+        >
+          {">"}
+        </button>
         <img
           src={project.screenshot}
           alt={`screenshot of ${project.name} site`}
@@ -41,12 +54,13 @@ const Projects = () => {
           <p>{project.description}</p>
         </article>
       </div>
-      <aside>
+      <aside className="project-links">
         <a href={project.repoURL} target="_blank">
-          I am a Repo Button
+          Repository
         </a>
+        <br />
         <a href={project.liveURL} target="_blank">
-          I am a Live Link Button
+          Live App
         </a>
       </aside>
     </div>
