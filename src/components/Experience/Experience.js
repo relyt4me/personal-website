@@ -18,11 +18,11 @@ const Experience = () => {
     <div className="experience-education">
       <div className="experience">
         <h1>Experience</h1>
-        {printCards(jobs)}
+        <div className="card-area">{printCards(jobs)}</div>
       </div>
       <div className="education">
         <h1>Education</h1>
-        {printCards(education)}
+        <div className="card-area">{printCards(education)}</div>
       </div>
     </div>
   );
