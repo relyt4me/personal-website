@@ -49,6 +49,10 @@
   font-weight: bolder;
 }
 
+.project button:hover {
+  cursor: pointer;
+}
+
 .back-button {
   left: 5px;
 }
