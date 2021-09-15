@@ -9,7 +9,7 @@ export const resumeData = {
     "My name is Tyler Fincher he/him, and I am a passionate problem solver, JavaScript developer, military veteran, and quick learner. I have honed my skills in React, Css, GraphQL, HTML and other languages with the fundamentals of object-oriented programing, test driven development, and an agile workflow. I find drive in building applications that are accessible for variety of users from different backgrounds and with different capabilities. In my work I look for chances to implement creative solutions while working in teams to continue learning from others and sharing my own knowledge.",
   education: [
     {
-      school: "Turing School of Software & Design",
+      name: "Turing School of Software & Design",
       position: "Graduate Front End Web Development Program",
       time: "April 2020 - November 2020",
       description: [
@@ -21,7 +21,7 @@ export const resumeData = {
       ],
     },
     {
-      school: "Fort Gordon School US Army",
+      name: "Fort Gordon School US Army",
       position: "Graduate MultiChannel Transmission Operator and Maintainer",
       time: "March 2012 - October 2012",
       description: [
