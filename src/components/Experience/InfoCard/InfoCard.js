@@ -1,3 +1,5 @@
+import "./InfoCard.css";
+
 const InfoCard = ({ information }) => {
   const printDescription = (description) => {
     return description.map((note, index) => {
@@ -10,7 +12,9 @@ const InfoCard = ({ information }) => {
       <h2>{information.name}</h2>
       <h3>{information.position}</h3>
       <h4>{information.time}</h4>
-      {printDescription(information.description)}
+      <div className="description">
+        {printDescription(information.description)}
+      </div>
     </article>
   );
 };

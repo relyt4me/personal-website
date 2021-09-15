@@ -1,7 +1,7 @@
 .projects {
   position: relative;
   width: 1300px;
-  height: 600px;
+  height: 500px;
   margin: auto;
   color: #193a6f;
 }
@@ -42,11 +42,15 @@
   width: 50px;
   font-family: Quicksand;
   background-color: #5b84c4;
-  color: #fb9b50;
-  border: 9px solid #fb9b50;
+  color: #f98125;
+  border: 9px solid #f98125;
   border-radius: 10px;
   font-size: 2em;
   font-weight: bolder;
+}
+
+.project button:hover {
+  cursor: pointer;
 }
 
 .back-button {
@@ -60,7 +64,7 @@
 .project img {
   width: 580px;
   height: 350px;
-  border: 6px solid #fb9b50;
+  border: 6px solid #f98125;
   border-radius: 13px;
 }
 
