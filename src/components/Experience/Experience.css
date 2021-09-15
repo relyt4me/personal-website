@@ -5,3 +5,13 @@
   margin: auto;
   color: #193a6f;
 }
+
+.card-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience h1,
+.education h1 {
+  margin: 30px;
+}
