@@ -24,3 +24,13 @@
 .skills {
   padding-top: 70px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1028px) {
+  .App {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+}
