@@ -37,3 +37,13 @@
   height: 33px;
   padding-top: 5px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1028px) {
+  .contact {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+}
