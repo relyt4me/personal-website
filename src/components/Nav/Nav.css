@@ -26,6 +26,7 @@ nav .site-title {
   position: absolute;
   top: 30%;
   right: 5%;
+  display: flex;
 }
 
 .navigation-buttons button {
