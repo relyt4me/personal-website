@@ -8,9 +8,8 @@ const Experience = () => {
   const [education, setEducation] = useState(resumeData.education);
 
   const printCards = (cardData) => {
-    console.log(cardData);
     return cardData.map((card) => {
-      return <InfoCard information={card} />;
+      return <InfoCard information={card} key={card.name} />;
     });
   };
 
