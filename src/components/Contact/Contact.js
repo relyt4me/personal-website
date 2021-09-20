@@ -10,7 +10,7 @@ const Contact = () => {
     <div className="contact">
       <h1>Contact</h1>
       <p>
-        {resumeData.name}
+        <strong>{resumeData.name}</strong>
         <br />
         {resumeData.location}
         <br />
@@ -26,7 +26,7 @@ const Contact = () => {
           <img src={linkedIcon} alt="linked in icon" />
         </a>
         <a href={`mailto: ${emailURL}`} tabIndex="0">
-          <img src={emailIcon} alt="linked in icon" />
+          <img src={emailIcon} alt="email icon" />
         </a>
       </div>
     </div>

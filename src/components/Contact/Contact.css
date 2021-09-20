@@ -1,0 +1,39 @@
+.contact {
+  background-color: #f98125;
+  position: relative;
+  height: 350px;
+}
+
+.contact h1 {
+  padding-top: 35px;
+  height: 200px;
+  font-size: 2.6em;
+}
+
+.contact p {
+  font-size: 1.1em;
+  position: absolute;
+  top: 120px;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+}
+
+.contact-buttons {
+  position: absolute;
+  top: 230px;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.contact-buttons img {
+  height: 28px;
+  padding: 10px;
+}
+
+.contact-buttons img:hover {
+  height: 33px;
+  padding-top: 5px;
+}
