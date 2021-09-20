@@ -9,7 +9,7 @@ const TechnicalSkills = () => {
   };
 
   return (
-    <div className="technical-skills">
+    <div className="technical-skills skills">
       <h1>Technical Skills</h1>
       <div className="tech-skill-list">{printSkills()}</div>
     </div>

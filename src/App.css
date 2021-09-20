@@ -17,3 +17,10 @@
   margin: 0;
   padding: 0;
 }
+
+.about,
+.projects,
+.experience,
+.skills {
+  padding-top: 70px;
+}
