@@ -4,7 +4,7 @@ import { resumeData } from "../../data/resumeData";
 const TechnicalSkills = () => {
   const printSkills = () => {
     return resumeData.techSkills.map((skill) => {
-      return <li>{skill}</li>;
+      return <li key={skill}>{skill}</li>;
     });
   };
 

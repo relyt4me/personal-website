@@ -13,7 +13,6 @@ function App() {
       <Nav />
       <Home />
       <About />
-      {/* <h1>MineSweep</h1> */}
       <Projects />
       <Experience />
       <TechnicalSkills />
