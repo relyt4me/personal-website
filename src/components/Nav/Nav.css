@@ -58,4 +58,8 @@ nav .site-title {
 }
 
 @media screen and (max-width: 420px) {
+  nav {
+    visibility: hidden;
+    width: 0;
+  }
 }

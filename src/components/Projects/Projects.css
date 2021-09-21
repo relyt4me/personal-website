@@ -140,6 +140,7 @@
 @media screen and (max-width: 780px) {
   .projects {
     width: 780px;
+    height: 380px;
   }
 
   .stack {
@@ -153,4 +154,69 @@
 }
 
 @media screen and (max-width: 420px) {
+  .projects {
+    width: 100vw;
+    padding-top: 5px;
+    margin-top: 50px;
+    border: 3px solid #193a6f;
+    border-left: 0;
+    border-right: 0;
+    height: 475px;
+  }
+
+  .stack {
+    top: 235px;
+    width: 70vw;
+    left: 15vw;
+  }
+
+  .stack h2 {
+    font-size: 1.1em;
+  }
+
+  .project {
+    left: 0;
+    width: 98vw;
+  }
+
+  .projects h1 {
+    height: 50px;
+  }
+
+  .project img {
+    visibility: hidden;
+    width: 0;
+  }
+
+  .project article {
+    width: 90vw;
+    height: 200px;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: medium;
+    margin: 0;
+    left: 5vw;
+    border: 2px solid #f98125;
+  }
+
+  .project button {
+    top: 210px;
+    height: 18%;
+    border: 2px solid #f98125;
+    background-color: white;
+  }
+
+  .project-links {
+    width: 70vw;
+    left: 15vw;
+    bottom: 145px;
+  }
+
+  .project-links a {
+    color: #f98125;
+    background-color: white;
+    font-size: 1.1em;
+    padding: 10px;
+    margin: 3vw;
+  }
 }

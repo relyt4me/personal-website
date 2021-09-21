@@ -34,4 +34,13 @@
 }
 
 @media screen and (max-width: 420px) {
+  .experience-education {
+    width: 100vw;
+    height: max-content;
+    border-bottom: 3px solid #193a6f;
+  }
+
+  .experience {
+    padding-top: 10px;
+  }
 }

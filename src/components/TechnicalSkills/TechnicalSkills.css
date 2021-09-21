@@ -35,4 +35,13 @@
 }
 
 @media screen and (max-width: 420px) {
+  .tech-skill-list {
+    width: 98vw;
+    display: inline;
+    font-size: 1em;
+  }
+  .technical-skills {
+    margin-top: 0;
+    height: 680px;
+  }
 }

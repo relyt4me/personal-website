@@ -46,4 +46,7 @@
 }
 
 @media screen and (max-width: 420px) {
+  .contact {
+    height: 300px;
+  }
 }
