@@ -137,5 +137,20 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  .projects {
+    width: 780px;
+  }
+
+  .stack {
+    width: 170px;
+    font-size: 0.9em;
+  }
+
+  .project {
+    left: 180px;
+  }
+}
+
 @media screen and (max-width: 420px) {
 }

@@ -32,5 +32,11 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  .App {
+    width: 900px;
+  }
+}
+
 @media screen and (max-width: 420px) {
 }

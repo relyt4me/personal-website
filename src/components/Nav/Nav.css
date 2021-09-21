@@ -51,5 +51,11 @@ nav .site-title {
   }
 }
 
+@media screen and (max-width: 780px) {
+  nav {
+    width: 900px;
+  }
+}
+
 @media screen and (max-width: 420px) {
 }

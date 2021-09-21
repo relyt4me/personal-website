@@ -29,5 +29,11 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  .information-card {
+    width: 750px;
+  }
+}
+
 @media screen and (max-width: 420px) {
 }

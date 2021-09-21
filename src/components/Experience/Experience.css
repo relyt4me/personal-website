@@ -27,5 +27,11 @@
   }
 }
 
+@media screen and (max-width: 780px) {
+  .experience-education {
+    width: 780px;
+  }
+}
+
 @media screen and (max-width: 420px) {
 }
