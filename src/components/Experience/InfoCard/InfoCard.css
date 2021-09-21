@@ -36,4 +36,9 @@
 }
 
 @media screen and (max-width: 420px) {
+  .information-card {
+    width: 80vw;
+    height: max-content;
+    margin-left: 3vw;
+  }
 }

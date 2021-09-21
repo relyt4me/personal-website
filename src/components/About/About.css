@@ -56,4 +56,22 @@
 }
 
 @media screen and (max-width: 420px) {
+  .about {
+    height: 610px;
+  }
+  .about-container {
+    width: 390px;
+  }
+
+  .about img {
+    right: -90px;
+    top: -130px;
+  }
+
+  .bio {
+    border: 2px solid #f98125;
+    top: 30px;
+    width: 380px;
+    padding: 45px;
+  }
 }

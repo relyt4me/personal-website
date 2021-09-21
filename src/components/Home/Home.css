@@ -86,4 +86,21 @@
 } */
 
 @media screen and (max-width: 420px) {
+  .home {
+    margin-top: 0;
+    width: 100vw;
+    height: 120px;
+  }
+
+  .home h1 {
+    top: 20px;
+  }
+
+  .home .links {
+    top: 59px;
+  }
+
+  .float-icon {
+    visibility: hidden;
+  }
 }
