@@ -35,3 +35,25 @@
   right: 0;
   box-sizing: border-box;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1300px) {
+  .about-container {
+    width: 900px;
+  }
+
+  .about img {
+    left: auto;
+    transform: translateX(-90px);
+    top: -40px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .about-container {
+    width: 780px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+}

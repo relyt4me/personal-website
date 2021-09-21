@@ -43,3 +43,19 @@ nav .site-title {
   color: #fb9b50;
   text-decoration: underline overline #fb9b50;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1028px) {
+  .navigation-buttons button {
+    font-size: 0.95em;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  nav {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+}

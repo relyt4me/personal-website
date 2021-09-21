@@ -118,3 +118,39 @@
 .project-links a:hover {
   border: 3px solid #fb9b50;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1300px) {
+  .projects {
+    max-width: 900px;
+    height: 585px;
+  }
+  .project-links {
+    display: flex;
+    width: 100%;
+    left: 0;
+    bottom: 45px;
+    justify-content: space-around;
+  }
+  .project article {
+    opacity: 90%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .projects {
+    width: 780px;
+  }
+
+  .stack {
+    width: 170px;
+    font-size: 0.9em;
+  }
+
+  .project {
+    left: 180px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+}

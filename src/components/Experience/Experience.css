@@ -15,3 +15,23 @@
 .education h1 {
   margin: 30px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1300px) {
+  .experience-education {
+    width: 900px;
+    height: 1500px;
+  }
+  .card-area {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .experience-education {
+    width: 780px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+}
