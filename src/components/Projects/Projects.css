@@ -79,7 +79,7 @@
   padding: 40px;
   background-color: white;
   border-radius: 25px;
-  opacity: 0%;
+  opacity: 0;
   font-size: larger;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .project article:hover {
-  opacity: 90%;
+  opacity: 0.9;
 }
 
 .project-links {
@@ -134,7 +134,7 @@
     justify-content: space-around;
   }
   .project article {
-    opacity: 90%;
+    opacity: 0.9;
   }
 }
 
