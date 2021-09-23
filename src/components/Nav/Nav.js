@@ -19,13 +19,7 @@ const Nav = () => {
           className="nav-button"
           alignToTop="false"
         >
-          <button
-            tabIndex="0"
-            aria-label={`${section} section`}
-            onClick={() => {
-              console.log(`${section} clicked`);
-            }}
-          >
+          <button tabIndex="0" aria-label={`${section} section`}>
             {section.toUpperCase()}
           </button>
         </ScrollIntoView>
