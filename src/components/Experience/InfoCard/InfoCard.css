@@ -39,6 +39,7 @@
   .information-card {
     width: 80vw;
     height: max-content;
+    padding-bottom: 8px;
     margin-left: 3vw;
   }
 }
