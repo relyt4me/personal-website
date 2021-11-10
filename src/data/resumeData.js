@@ -3,9 +3,9 @@ export const resumeData = {
   location: "Denver, CO",
   profilePic: "assets/profilePic.jpeg",
   resumeURL:
-    "https://docs.google.com/document/d/1P4Ed4BhXaKmbXTCznYf3UTh8r0feYnZeMS65tNQCqLU/edit?usp=sharing",
+    "https://docs.google.com/document/d/1YqbMrq_TIVAVN5418dRI8m_tbFMNhDlzLjfWJ85H_tY/edit?usp=sharing",
   gitHubURL: "https://github.com/relyt4me",
-  linkedInURL: "https://www.linkedin.com/in/tyler-haglund/",
+  linkedInURL: "https://www.linkedin.com/in/tyler-fincher",
   emailURL: "relyt4me@gmail.com",
   bioDescription:
     "My name is Tyler Fincher (he/him), and I am a passionate problem solver, JavaScript developer, military veteran, and quick learner. I have honed my skills in React, CSS, GraphQL, HTML and other languages with the fundamentals of object-oriented programming, test driven development, and an agile workflow. I find drive in building applications that are accessible for a variety of users from different backgrounds and with different capabilities. In my work I look for chances to implement creative solutions while working in teams to continue learning from others and sharing my own knowledge.",
