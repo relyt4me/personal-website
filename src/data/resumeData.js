@@ -25,7 +25,7 @@ export const resumeData = {
     {
       name: "Fort Gordon School US Army",
       position: "Graduate MultiChannel Transmission Operator and Maintainer",
-      time: "March 2012 - October 2012",
+      time: "November 2011 - October 2012",
       description: [
         "Completed rigorous training on new radio and satellite technology",
         "Developed unique problem solving skills and fortitude through rigorous military tests",
@@ -51,7 +51,7 @@ export const resumeData = {
     {
       name: "540th Network Support Company",
       position: "Range Extension Unit Sergeant",
-      time: "October 2012 - June 2019",
+      time: "October 2012 - January 2019",
       description: [
         "Supervised 8 Soldiers to plan and implement radio and satellite transmissions for the Colorado National Guard during missions domestic and abroad",
         "Maintained a network of communication terminals and vehicles using IP management and server-side packet transmission",
