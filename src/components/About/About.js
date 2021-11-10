@@ -1,6 +1,6 @@
 import "./About.css";
 import { resumeData } from "../../data/resumeData";
-import profilePic from "../../assets/profilePic.jpg";
+import profilePic from "../../assets/profilePic.jpeg";
 
 const About = () => {
   const { name, bioDescription } = resumeData;

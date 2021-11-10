@@ -1,7 +1,7 @@
 export const resumeData = {
   name: "Tyler Fincher",
   location: "Denver, CO",
-  profilePic: "assets/profilePic.jpg",
+  profilePic: "assets/profilePic.jpeg",
   resumeURL:
     "https://docs.google.com/document/d/1P4Ed4BhXaKmbXTCznYf3UTh8r0feYnZeMS65tNQCqLU/edit?usp=sharing",
   gitHubURL: "https://github.com/relyt4me",
